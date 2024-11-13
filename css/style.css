@@ -18,7 +18,7 @@
  }
  header{
    background-color: var(--dark);
-   height: 800px;
+   height: 700px;
  }
  .container{
    max-width: 1152px;
@@ -42,4 +42,33 @@
 
  header nav .branding{
     margin-right: 3rem;
+ }
+
+ .hero .left img{
+            width: 300px;
+   
+ }
+ .hero .right{
+  color: var(--pure);
+ }
+ .hero .right h6{
+  font-size:2rem ;
+  color: var(--primary);
+  margin: bottom 0.5rem;
+  font-weight: 200; 
+  font-family:'Arial Narrow Bold';
+ }
+ .hero .right h1{
+  font-size: 4rem;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 100;
+  line-height: 1;
+  margin-bottom: 1.5rem;
+ }
+ .hero .right h1 span{
+  color: var(--primary);
+ }
+ .hero .right p{
+  line-height: 1.9;
+  margin-bottom: 2rem;
  }
