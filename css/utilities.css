@@ -31,3 +31,16 @@
     color:var(--primary);
     border-color: var(--primary);
 }
+.btn-secondary:hover{
+    background: var(--primary);
+    color: black;
+    /* border-color: red; */
+
+}
+
+.flex-1{
+    flex: 1;
+}
+.justify-ceneter{
+     justify-content:center;
+}

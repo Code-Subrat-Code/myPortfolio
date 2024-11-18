@@ -19,6 +19,8 @@
  header{
    background-color: var(--dark);
    height: 700px;
+   /* for change in co-ordinates */
+   clip-path: polygon(0 0, 100% 0 , 100% 100% ,70% 83%,0 100%);
  }
  .container{
    max-width: 1152px;
@@ -71,4 +73,7 @@
  .hero .right p{
   line-height: 1.9;
   margin-bottom: 2rem;
+ }
+ .hero .right {
+  margin-top: -7rem;
  }
