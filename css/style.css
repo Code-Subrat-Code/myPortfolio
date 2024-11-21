@@ -204,7 +204,23 @@ section.servises  .card-wrapper .card:hover p{
 }
 
 
-
+section.freelancer{
+  text-align: center;
+  /* background: url(../images/camera.png); */
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/camera.png);
+  color: var(--pure);
+  clip-path: polygon(0 0, 100% 0 , 100% 100% ,70% 83%,0 100%);
+  padding-bottom: 13rem;
+}
+section.freelancer h1{
+  /* font-weight: 400; */
+  font-size: 2rem;
+margin-bottom: 0.5rem;
+}
+section.freelancer p{
+  font-family: "Sour Gummy", serif;
+  margin-bottom: 2rem;
+}
 
 
 
